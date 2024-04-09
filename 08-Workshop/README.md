@@ -1,10 +1,12 @@
-.
-
 # SPIS-Workshop-25 on 9.4 12:30 onwards
 
-## Part 1
+## Part 1: Parametric Methos (with LPC as an example)
+
+* [LPC Notebook](./LPC/README.ipynb)
 
 ### 1.0 TODO Physiological (EEG/HR) / Movement Tools for MED8
+
+* torchEEG: [github](https://github.com/torcheeg/torcheeg), [documentation](https://torcheeg.readthedocs.io), [Medium Article](https://medium.com/@tczhangzhi/torcheeg-a-pytorch-lib-for-deep-eeg-analysis-a25ca12175e8). Uses Graph NN.
 
 ### 1.1 AIVA
 
@@ -62,24 +64,18 @@
 
 * Google Music LM: https://google-research.github.io/seanet/musiclm/examples/
 * Meta AudioCraft: https://audiocraft.metademolab.com/
-  * AudioBox https://ai.meta.com/blog/audiobox-generating-audio-voice-natural-language-prompts/
+  * 🔥 AudioBox https://ai.meta.com/blog/audiobox-generating-audio-voice-natural-language-prompts/
 * A web UI for LLMs https://sonauto.app/ (requires Google log in)
 
-## Part 2 (Ernests & Anders)
+# Part 2 ML for Audio (Anders R Bargum)
 
-### 2.1 Ernests
+See [08-Workshop/ML_for_Audio.ipynb](./ML_for_Audio.ipynb)
 
-Suggestion: Time Series -> ARIMA -> BioX data and processing
-
-### 2.2 Anders (1.5 H))
-
-Suggestion: DAFx all-pass, neutune, or differential DSP
-
-## Part 3 (Projects)
+# Part 3 (Projects)
 
 ### 3.1 Project initiation and work (1h)
 
-We use ./04-MusicalGestures for 
+We use ./04-MusicalGestures for
 
 SMC can integrate 🔥 **Neutone**: https://neutone.space/ in their workflow: create a short musical piece. Ensure to use demucs for source seperation and several generative models together. Be *mindful* [about the resources](https://github.com/QosmoInc/neutone_sdk/pull/48) (sampling rate, buffer size, Real-time factor, latency etc): In most cases you'll be able to run max three instances even on a high-end computer.
 
